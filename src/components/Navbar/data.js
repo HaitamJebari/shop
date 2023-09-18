@@ -14,7 +14,7 @@ export const links =[
         url:"/Contact"
     },{
         id:4,
-        title:"Blog",
-        url:"/Blog"
+        title:"Products",
+        url:"/Products"
     }
 ]

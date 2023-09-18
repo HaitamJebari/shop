@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
     <div className={styles.container}>
-      <Link href="/" className={`${styles.logo} ${logofont.className}`}>SHOP</Link>
+      <Link href="/" className={`${styles.logo} ${logofont.className}`}>Kanzmarket</Link>
         <DarkMode/>
         { links.map(link=>
           <Link className={styles.links} key={link.id} href={link.url}>{link.title}</Link>
